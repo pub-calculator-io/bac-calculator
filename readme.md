@@ -1,4 +1,4 @@
-=== BAC Calculator by Calculator.iO ===
+# BAC Calculator by Calculator.iO
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
@@ -9,11 +9,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 The Blood Alcohol Concentration Calculator provides an accurate estimate of your current blood alcohol concentration based on several key inputs and personal characteristics. 
 
-== Description ==
+## Description
 
 The Blood Alcohol Concentration Calculator provides an accurate estimate of your current blood alcohol concentration based on several key inputs and personal characteristics. 
 
-__Shortcode__
+### Shortcode
 
 Use the BAC Calculator shortcode:
 
@@ -27,21 +27,21 @@ Libraries in use:
 5. https://air-datepicker.com/
 6. https://www.chartjs.org/
 
-== Installation ==
+## Installation
 
 1. Upload the /ci_bac_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [BAC Calculator](https://www.calculator.io/bac-calculator/ "BAC Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+## Usage
 * Add the shortcode `[ci_bac_calculator]` to your page or post and configure default mortgage parameters.
 * If you are using widgets, just add the BAC Calculator to the sidebar through the `Appearance -> Widgets -> BAC Calculator` menu in WordPress.
 * Add the following code: `<?php display_ci_bac_calculator(); ?>` to your template where you would like the BAC Calculator to appear.
 
-== Screenshots ==
+## Screenshots
 1. The BAC Calculator Input Form.
 2. The BAC Calculator Calculation Results.
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
+### 1.0.0
 * Initial release
