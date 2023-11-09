@@ -13,6 +13,8 @@ The Blood Alcohol Concentration Calculator provides an accurate estimate of your
 
 The Blood Alcohol Concentration Calculator provides an accurate estimate of your current blood alcohol concentration based on several key inputs and personal characteristics. 
 
+[BAC Calculator Homepage](https://www.calculator.io/bac-calculator/ "BAC Calculator Homepage")
+
 __Shortcode__
 
 Use the BAC Calculator shortcode:
