@@ -1,6 +1,6 @@
 === BAC Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: bac calculator, blood alcohol content tool, estimate bac online, calculate alcohol level, drunk driving bac estimate, legal bac limit checker, alcohol impairment calculator, bac computation tool, breath alcohol concentration calculator, safe driving alcohol calculator
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
