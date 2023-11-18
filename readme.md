@@ -1,4 +1,4 @@
-# BAC Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# BAC Calculator Widget for WordPress
 
 The Blood Alcohol Concentration Calculator provides an accurate estimate of your current blood alcohol concentration based on several key inputs and personal characteristics. 
 
