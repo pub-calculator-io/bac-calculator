@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: BAC Calculator by www.calculator.io
+Plugin Name: CI Bac calculator
 Plugin URI: https://www.calculator.io/bac-calculator/
 Description: The Blood Alcohol Concentration Calculator provides an accurate estimate of your current blood alcohol concentration based on several key inputs and personal characteristics. 
 Version: 1.0.0

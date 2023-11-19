@@ -1,4 +1,4 @@
-=== BAC Calculator by www.calculator.io ===
+=== CI Bac calculator ===
 Contributors: calculatorio
 Tags: bac calculator, blood alcohol content tool, estimate bac online, calculate alcohol level, drunk driving bac estimate, legal bac limit checker, alcohol impairment calculator, bac computation tool, breath alcohol concentration calculator, safe driving alcohol calculator
 Requires at least: 5.0
