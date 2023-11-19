@@ -7,7 +7,7 @@ The Blood Alcohol Concentration Calculator provides an accurate estimate of your
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/bac-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /bac-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [BAC Calculator](https://www.calculator.io/bac-calculator/ "BAC Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
