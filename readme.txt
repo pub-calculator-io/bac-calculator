@@ -24,7 +24,6 @@ Add the following code to your template where you would like the BAC Calculator 
 == Screenshots ==
 
 1. The BAC Calculator Input Form.
-2. The BAC Calculator Calculation Results.
 
 == Installation ==
 

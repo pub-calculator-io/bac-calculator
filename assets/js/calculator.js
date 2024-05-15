@@ -13,11 +13,11 @@ function calculate() {
 		let alcoholAbv = input.get(`${alcohol}_abv`).optional().replace(/%/, '').val();
 
 		if (alcoholAmount && !alcoholAbv) {
-			input.error(`${alcohol}_abv`, 'Please enter the ABV of the alcohol.');
+			input.error(`${alcohol}_abv`, 'Enter the ABV of the alcohol.');
 		}
 
 		if (!alcoholAmount && alcoholAbv) {
-			input.error(`${alcohol}_amount`, 'Please enter the amount of the alcohol.');
+			input.error(`${alcohol}_amount`, 'Enter the amount of the alcohol.');
 		}
 
 		if (alcoholAmount && alcoholSize && alcoholAbv) {
@@ -28,7 +28,7 @@ function calculate() {
 		}
 	});
 
-	if (!drinks.length) input.error('beer_amount', 'Please enter the amount of alcohol you have consumed.');
+	if (!drinks.length) input.error('beer_amount', 'Enter the amount of alcohol you have consumed.');
 
 	if (!input.valid()) return;
 

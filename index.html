@@ -251,7 +251,7 @@
                 						<label class="input col   ">
                 							
                 							<div class="input-field row">
-                								<input type="text" class="input-field__input" placeholder=""  id="liquor_amount" value=""  />
+                								<input type="text" class="input-field__input" placeholder=""  id="liquor_amount" value="1"  />
                 									<span class="input-field__hint">liquor</span>
                 							</div>
                 						
@@ -383,7 +383,7 @@
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
-                		<button class="system-switcher" onclick="toggleSystem(this)">
+                		<button class="system-switcher" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M10.5 9.5H10C9.44772 9.5 9 9.05228 9 8.5V2.5M4.5 2.5H3.5C2.94772 2.5 2.5 2.94772 2.5 3.5L2.5 9.5M7.5 4.5L10.5 4.5M1.5 5.5L4.5 5.5" stroke="white" stroke-width="2" stroke-linecap="round"></path>
@@ -404,13 +404,15 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -425,12 +427,11 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
-        </div>        <span id="calculator_result"><div class="calculator-result col">
+        	<div class="col" id="error-list"></div>
+        </div>        <span id="calculator_result"><div class="calculator-result col animate">
 	<p class="table-cell table-cell--dark table-cell--top table-cell--only-title">Blood Alcohol Content (BAC)</p>
-	<p class="table-cell table-cell--only" id="result">BAC is around <span id="bac_result">0.039</span>%<br>
-		It will take around <span id="time_result">2.6</span> more hours to reach 0%
+	<p class="table-cell table-cell--only" id="result">BAC is around <span id="bac_result">0.065</span>%<br>
+		It will take around <span id="time_result">4.3</span> more hours to reach 0%
 	</p>
 </div>
 </span>
